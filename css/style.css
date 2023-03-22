@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(53, 52, 52);
+  text-align: center;
+  font-family: 'Antonio', 'Arial Narrow', 'Avenir Next Condensed', sans-serif;
+  color: rgb(199, 199, 199);
+}
+
+nav {
+  word-spacing: 25px;
+}
+header {
+
+}
+
+#connav {
+
+}
+#connav ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* width: auto; */
+}
+#connav ul li {
+  background-color: black;
+  color: aqua;
+  font-size: 30px;
+  height: 75px;
+  width: 25%;
+  border: 1px solid;
+  padding: 20px;
+  float: left;
+  margin: 1px;
+  word-wrap: normal;
+  display: block; 
+}
+
+#connav ul li:hover {
+  background-color: grey;
+}
+#connav a:link {
+  text-decoration: none;
+}
+
+#sitenav {
+  font-size: 50px;
+  word-spacing: 25px;
+
+}
+
+#linknav {
+  font-size: 20px;
+  word-spacing: normal;
+
+}
+
+#pagenav {
+  font-size: 25px;
+  word-spacing: 25px;
+  text-align: left;
+}
+
+a:visited {
+  color: aquamarine
+}
+
+a:link {
+  color: teal
+}
+
+button {
+  background-color: #0a484d;
+  /* Green */
+  border: 1px;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#series {
+  color: cadetblue;
+  font-size: 30px;
+  table-align: center;
+  width: 80%;
+  border: 5px solid solid solid red;
+
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(3, 24, 37);
+}

@@ -77,7 +77,13 @@ header {
 #linknav {
   font-size: 20px;
   word-spacing: normal;
+  border= "1";
+  /* text-align: center; */
+}
 
+.center {
+margin-left: auto;
+margin-right: auto;
 }
 
 #pagenav {

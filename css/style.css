@@ -3,29 +3,53 @@ body {
   text-align: center;
   font-family: 'Antonio', 'Arial Narrow', 'Avenir Next Condensed', sans-serif;
   color: rgb(199, 199, 199);
+  font-size: 50px;
 }
+.header {
 
+  position: sticky;
+  top: 0;
+  padding: 5px 20px;
+  margin: 30px 10px;
+  font-size: 40px;
+
+}
 nav {
   word-spacing: 25px;
+  font-size: 40px;
 }
 header {
 
 }
-
+#ipsum{
+  : 30 px;
+}
 #connav {
-
+  flex-wrap:nowrap;
 }
 #connav ul {
   list-style: none outside none;
   margin: 0;
   padding: 0;
   text-align: center;
-  /* width: auto; */
+
+
 }
+
+.img {
+
+  display: block;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  }
+
 #connav ul li {
   background-color: black;
   color: aqua;
-  font-size: 30px;
+  font-size: 40px;
   height: 75px;
   width: 25%;
   border: 1px solid;
@@ -34,6 +58,7 @@ header {
   margin: 1px;
   word-wrap: normal;
   display: block; 
+  
 }
 
 #connav ul li:hover {

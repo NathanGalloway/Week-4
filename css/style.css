@@ -75,13 +75,14 @@ header {
 }
 
 #linknav {
-  font-size: 20px;
+  font-size: 50px;
   word-spacing: normal;
   border= "1";
   /* text-align: center; */
 }
 
 .center {
+display: inline;
 margin-left: auto;
 margin-right: auto;
 }
@@ -126,3 +127,5 @@ th,
 td {
   border: 1px solid rgb(3, 24, 37);
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/people/peo-7/peo845.cur), auto !important;} /* End https://www.cursors-4u.com */
